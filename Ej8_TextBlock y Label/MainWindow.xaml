@@ -14,7 +14,7 @@
                 <Run Text=" de cómo " />
                 <Run Text="Span" FontWeight="Bold" Foreground="Green"/>
                 <Run Text=" permite incluir diferentes elementos, como un " />
-                <Hyperlink NavigateUri="https://www.elmundo.es/" FontWeight="Bold" TextDecorations="Underline">enlace</Hyperlink>
+                <Hyperlink NavigateUri="https://www.elmundo.es/" RequestNavigate="Hyperlink_RequestNavigate" FontWeight="Bold" TextDecorations="Underline">enlace</Hyperlink>
                 <Run Text="."/>
             </Span>
             <LineBreak/>
